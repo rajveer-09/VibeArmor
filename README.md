@@ -1,36 +1,103 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧠 VibeArmor - Pattern-Based DSA Learning Platform
 
-## Getting Started
+A full-stack web platform to help users master **DSA through pattern recognition**, track their progress, and get AI-powered doubt resolution. Built with **Next.js, TypeScript, MongoDB, and Tailwind CSS**, it integrates with LeetCode and offers a curated sheet to crack tech interviews efficiently.
 
-First, run the development server:
+> 🚀 Live: [vibearmor.com](https://vibearmor.com)  
+> 🔗 GitHub: [github.com/rajveer-09/VibeArmor](https://github.com/rajveer-09/VibeArmor)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 🔒 JWT-based Authentication with Role-Based Access
+- 📚 Curated Pattern-Based DSA Sheet (e.g., Sliding Window, Binary Search on Answer)
+- 📈 User Dashboard with Progress Tracking
+- 🤖 AI-Powered Doubt Support (LeetCode problem-specific)
+- 🌐 LeetCode Data Integration for external stats
+- ⚡ CDN-Cached APIs + Vercel Deployment
+- 🛡️ Zod-based Validation for API Contracts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+| Tech       | Usage                         |
+|------------|-------------------------------|
+| Next.js    | Fullstack framework (SSR + API routes) |
+| TypeScript | Type safety                   |
+| MongoDB    | NoSQL Database (Mongoose ODM) |
+| Tailwind   | Utility-first CSS framework   |
+| Zod        | Runtime input validation      |
+| JWT        | Auth token handling           |
+| OpenAI/Gemini | AI assistant for doubt-solving |
+| Vercel     | Hosting & CDN caching         |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🧑‍💻 Roles & Contributions
 
-## Deploy on Vercel
+> 👥 Team project (3 members). This repo represents overall contributions.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 🧩 Designed MongoDB models (User, Problem, Progress)
+- ✅ Zod schema validation for all routes
+- 📘 Created DSA Sheet with pattern-based LeetCode links
+- 📊 Integrated progress tracking on dashboard
+- 🧠 Helped design AI input prompts and validation flow
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+## 🗂️ DSA Pattern Sheet
+The platform covers 15+ common DSA patterns:
+
+Two Pointers
+
+Sliding Window
+
+Binary Search on Answer
+
+Monotonic Stack/Queue
+
+Top K Elements
+
+Backtracking
+
+…and more
+
+Each pattern includes curated LeetCode problems with solution tracking.
+
+## 🚀 Deployment
+Hosted on Vercel
+
+CDN Caching for static assets and API responses via Cache-Control headers
+
+Cache Invalidation handled via webhook on admin update
+
+## 📊 Progress Tracking
+Each user’s dashboard displays:
+
+Solved problems per pattern
+
+Overall completion stats
+
+Streaks & LeetCode stats integration
+
+## 👨‍💼 Admin Panel
+Admins can:
+
+Add/Edit/Delete DSA problems
+
+Trigger cache invalidation for updated problems
+
+Manage users (RBAC)
+
+## 🤝 License
+MIT License. Feel free to fork and use for learning.
+
+## 🙋‍♂️ Authors
+Rajveer Sharma
+
+Team Collaborators: @teammate1, @teammate2 (will mention actual GitHub handles...)
+
+## 💬 Feedback / Suggestions
+Found a bug? Want to contribute a new pattern? Open an issue or drop a pull request!
+
+
