@@ -46,58 +46,80 @@ A full-stack web platform to help users master **DSA through pattern recognition
 
 ---
 ## 🗂️ DSA Pattern Sheet
-The platform covers 15+ common DSA patterns:
 
-Two Pointers
+> 🔍 Master DSA not by topic, but by solving **problems grouped by patterns** — the key to cracking interviews efficiently.
 
-Sliding Window
+🎯 The platform includes **15+ high-yield patterns**, such as:
 
-Binary Search on Answer
+- 🔁 **Two Pointers**
+- 🔍 **Sliding Window**
+- 📈 **Binary Search on Answer**
+- 📉 **Monotonic Stack / Queue**
+- 🎯 **Top K Elements**
+- 🔙 **Backtracking**
+- 🧩 **Greedy, Trie, DP** …and more!
 
-Monotonic Stack/Queue
+📝 Each pattern is accompanied by:
+- Curated **LeetCode problems**
+- Progress tracking ✅
+- One-click mark as solved 📌
 
-Top K Elements
-
-Backtracking
-
-…and more
-
-Each pattern includes curated LeetCode problems with solution tracking.
+---
 
 ## 🚀 Deployment
-Hosted on Vercel
 
-CDN Caching for static assets and API responses via Cache-Control headers
+> Seamlessly delivered with blazing-fast CDN and smart cache management.
 
-Cache Invalidation handled via webhook on admin update
+- ☁️ Hosted on **Vercel**
+- ⚡ **CDN caching** for static assets and non-dynamic API responses using `Cache-Control` headers
+- 🔄 **Cache invalidation** on content updates via backend **webhook trigger**
+
+---
 
 ## 📊 Progress Tracking
-Each user’s dashboard displays:
 
-Solved problems per pattern
+> Your personal dashboard — a clear view of your DSA journey.
 
-Overall completion stats
+Each user’s dashboard includes:
+- ✅ **Solved problems** per pattern
+- 📊 **Completion stats** (e.g., percentage progress)
+- 🔥 **Streak tracking**
+- 📡 **Live LeetCode data** integration (problems solved, rankings, etc.)
 
-Streaks & LeetCode stats integration
+---
 
 ## 👨‍💼 Admin Panel
-Admins can:
 
-Add/Edit/Delete DSA problems
+> Role-Based Access Control for complete content and user management.
 
-Trigger cache invalidation for updated problems
+👑 Admins can:
+- ✏️ **Add / Edit / Delete** DSA problems
+- 🔄 **Trigger cache invalidation** after content updates
+- 🧑‍💼 Manage users with **role-based access**
 
-Manage users (RBAC)
+---
 
-## 🤝 License
-MIT License. Feel free to fork and use for learning.
+## 📄 License
 
-## 🙋‍♂️ Authors
-Rajveer Sharma
+> 🆓 Open-source under the **MIT License** — clone, fork, or contribute freely.
 
-Team Collaborators: @teammate1, @teammate2 (will mention actual GitHub handles...)
+---
 
-## 💬 Feedback / Suggestions
-Found a bug? Want to contribute a new pattern? Open an issue or drop a pull request!
+## 👨‍💻 Authors
+
+- 👤 [**Rajveer Sharma**](https://github.com/rajveer-09)
+- 👥 Team Collaborators: `@teammate1`, `@teammate2` *(will replace with real GitHub handles soon)*
+
+---
+
+## 💬 Feedback & Contributions
+
+💡 Found a bug? Got an idea? Want to add more patterns?
+
+📬 Open an issue or send us a pull request.  
+We’d love to grow this with the community!
+
+---
+
 
 
